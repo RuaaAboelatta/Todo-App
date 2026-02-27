@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/RuaaAboelatta/Todo-App/static/css/main.e17fbff8.css",
+    "main.js": "/RuaaAboelatta/Todo-App/static/js/main.dd3377c7.js",
+    "static/js/453.15526390.chunk.js": "/RuaaAboelatta/Todo-App/static/js/453.15526390.chunk.js",
+    "static/media/bg-desktop-light.jpg": "/RuaaAboelatta/Todo-App/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
+    "static/media/bg-desktop-dark.jpg": "/RuaaAboelatta/Todo-App/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
+    "index.html": "/RuaaAboelatta/Todo-App/index.html",
+    "main.e17fbff8.css.map": "/RuaaAboelatta/Todo-App/static/css/main.e17fbff8.css.map",
+    "main.dd3377c7.js.map": "/RuaaAboelatta/Todo-App/static/js/main.dd3377c7.js.map",
+    "453.15526390.chunk.js.map": "/RuaaAboelatta/Todo-App/static/js/453.15526390.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e17fbff8.css",
+    "static/js/main.dd3377c7.js"
+  ]
+}
