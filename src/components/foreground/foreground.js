@@ -30,11 +30,17 @@ function Foreground({theme,toggleTheme}){
             <div className="todo-head">
                 <h2>T O D O</h2>
                 <button onClick={toggleTheme}>
-                    <img src={theme ==="light" ? "/icon-moon.svg" : "/icon-sun.svg"} width="30px" alt="theme"></img>
+                    <img 
+                        src={theme === "light" 
+                        ? process.env.PUBLIC_URL + "/icon-moon.svg" 
+                        : process.env.PUBLIC_URL + "/icon-sun.svg"
+                        } 
+                        width="30px" 
+                        alt="theme"
+                    />
                 </button>
             </div>
             <div className="todo-input">
-                {/* <div className="circle"></div> */}
                 <button className="circle"></button>
                 <input 
                 type="text"
@@ -67,12 +73,12 @@ function Foreground({theme,toggleTheme}){
                                 <li className="item">
                                     <div className="item-text">
                                         <button className={`${item.checked ? "circle checked":"circle check-circle"}`} onClick={()=> checkItem(item)}>
-                                            <img src="/icon-check.svg" className={`${item.checked ? "check-img" : "uncheck-img"}`} alt="check"></img>
+                                            <img src={process.env.PUBLIC_URL + "/icon-check.svg"} className={`${item.checked ? "check-img" : "uncheck-img"}`} alt="check"></img>
                                         </button>
                                         <span className={`${item.checked ? "check-text" : ""}`}> {item.text}</span>
                                     </div>
                                     <button className="cross"  onClick={()=> deleteItem(item)} >
-                                        <img src="/icon-cross.svg" alt="cross"></img>
+                                        <img src={process.env.PUBLIC_URL + "/icon-cross.svg"} alt="cross"></img>
                                     </button>
                                 </li>
                             </div>
