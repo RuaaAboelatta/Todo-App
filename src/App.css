@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  background-color:transparent;
+  border: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark{
+  --bg-color:hsl(235, 21%, 11%);
+  --foreground:hsl(235, 24%, 19%);
+  --input-text:hsl(235, 16%, 43%);
+  --active-text:hsl(236, 33%, 92%);
+  --text-color:hsl(233, 14%, 35%);
+  --circle-border:hsl(237, 14%, 26%);
+  --shadow:rgba(0, 0, 0, 0.4);
+  --gradient :linear-gradient(hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light{
+  --bg-color:hsl(236, 33%, 92%);
+  --foreground:hsl(0, 0%, 98%);
+  --input-text:hsl(236, 9%, 61%);
+  --active-text:hsl(235, 19%, 35%);
+  --text-color:hsl(236, 9%, 61%);
+  --circle-border:hsl(233, 11%, 84%);
+  --shadow:rgba(147, 148, 165, 0.4);
+  --gradient :linear-gradient(hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
 }

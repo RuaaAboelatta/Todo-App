@@ -1,0 +1,35 @@
+button{
+  background-color:transparent;
+  border: none;
+}
+body{
+  background-color: var(--bg-color);
+  position: relative;
+  transition: 0.5s all;
+}
+.bg{
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-light{
+  background-image: url(./bg-desktop-light.jpg);
+}
+.bg-dark{
+  background-image: url(./bg-desktop-dark.jpg);
+
+}
+@media (max-width: 380px){
+  .bg-light{
+    background-image: url(./bg-mobile-light.jpg);
+  }
+  .bg-dark{
+    background-image: url(./bg-mobile-dark.jpg);
+  }
+}
+@media (max-width: 960px) {
+  .bg{
+    height: 27vh;
+  }
+}

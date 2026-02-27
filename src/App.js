@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState , useEffect } from 'react';
+import Background from './components/background/background';
+import Foreground from './components/foreground/foreground';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    const [theme , setTheme] = useState("light");
+    const toggleTheme = ()=>{
+        setTheme(theme => theme==="light" ? "dark" : "light");
+    }
+    useEffect(()=>{
+        const bg = document.getElementById("bg");
+        if(bg){
+            bg.className = `app ${theme}`;
+        };
+    },[theme]);
+
+    return(
+        <div className={theme}>
+            <Background theme={theme}></Background>
+            <Foreground
+            theme={theme}
+            toggleTheme={toggleTheme}></Foreground>
+        </div>
+    );
+};
 
 export default App;
