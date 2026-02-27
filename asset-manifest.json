@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/todo-list/static/css/main.662e6c91.css",
-    "main.js": "/todo-list/static/js/main.45eacbd7.js",
-    "static/js/453.15526390.chunk.js": "/todo-list/static/js/453.15526390.chunk.js",
-    "static/media/bg-desktop-light.jpg": "/todo-list/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
-    "static/media/bg-desktop-dark.jpg": "/todo-list/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
-    "index.html": "/todo-list/index.html",
-    "main.662e6c91.css.map": "/todo-list/static/css/main.662e6c91.css.map",
-    "main.45eacbd7.js.map": "/todo-list/static/js/main.45eacbd7.js.map",
-    "453.15526390.chunk.js.map": "/todo-list/static/js/453.15526390.chunk.js.map"
+    "main.css": "/todo-app/static/css/main.e85db1ad.css",
+    "main.js": "/todo-app/static/js/main.ced649e1.js",
+    "static/js/453.15526390.chunk.js": "/todo-app/static/js/453.15526390.chunk.js",
+    "static/media/bg-desktop-light.jpg": "/todo-app/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
+    "static/media/bg-desktop-dark.jpg": "/todo-app/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
+    "index.html": "/todo-app/index.html",
+    "main.e85db1ad.css.map": "/todo-app/static/css/main.e85db1ad.css.map",
+    "main.ced649e1.js.map": "/todo-app/static/js/main.ced649e1.js.map",
+    "453.15526390.chunk.js.map": "/todo-app/static/js/453.15526390.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.662e6c91.css",
-    "static/js/main.45eacbd7.js"
+    "static/css/main.e85db1ad.css",
+    "static/js/main.ced649e1.js"
   ]
 }
